@@ -3,11 +3,9 @@
 .#{$vt-namespace}__container {
   z-index: $vt-z-index;
   position: fixed;
-  padding: 4px;
   width: $vt-toast-max-width;
   box-sizing: border-box;
   display: flex;
-  min-height: 100%;
   color: #fff;
   flex-direction: column;
   pointer-events: none;
